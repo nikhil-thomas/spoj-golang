@@ -1,3 +1,11 @@
+// Title             : 'ADDREV - Adding Reversed Numbers'
+// SPOJ ID           : '42'
+// Description       : 'https://www.spoj.com/problems/ADDREV/'
+// Author            : 'Nikhil Thomas'
+// Created On        : 'August 06, 2018'
+// Last Modified On  : 'August 08, 2018'
+//----------::::::::::----------::::::::::----------::::::::::----------//
+
 package main
 
 import (

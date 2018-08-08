@@ -1,8 +1,9 @@
-// SPOJ ID: 2
-// Title  : PRIME1 - Prime Generator
-// Link   : https://www.spoj.com/problems/PRIME1/
-// Author : Nikhil Thomas
-// Date   : August 08, 2018
+// Title             : 'PRIME1 - Prime Generator'
+// SPOJ ID           : '2'
+// Description       : 'https://www.spoj.com/problems/PRIME1/'
+// Author            : 'Nikhil Thomas'
+// Created On        : 'August 08, 2018'
+// Last Modified On  : 'August 08, 2018'
 //----------::::::::::----------::::::::::----------::::::::::----------//
 
 package main
