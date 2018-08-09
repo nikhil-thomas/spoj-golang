@@ -1,9 +1,9 @@
-// Title             : FCTRL - Factorial
-// SPOJ ID           : 11
-// Description       : 'https://www.spoj.com/problems/FCTRL/'
+// Title             : FCTRL2 - Small factorials
+// SPOJ ID           : 24
+// Description       : 'https://www.spoj.com/problems/FCTRL2/'
 // Author            : 'Nikhil Thomas'
 // Created On        : 'August 08, 2018'
-// Last Modified On  : 'August 08, 2018'
+// Last Modified On  : 'August 09, 2018'
 //----------::::::::::----------::::::::::----------::::::::::----------//
 
 // SPOJ Specifications ---------::::::::::----------::::::::::----------//
