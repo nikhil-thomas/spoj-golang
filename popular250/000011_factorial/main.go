@@ -42,7 +42,7 @@ func zerosInFactorial(n uint32) int {
 	for n > 0 {
 		numZeroes += int(n / div)
 		// we need to count sub factor 5s also
-		// hence divide n /5
+		// hence divide n with 5
 		n = n / div
 	}
 

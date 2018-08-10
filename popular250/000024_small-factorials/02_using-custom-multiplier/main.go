@@ -16,6 +16,10 @@
 // Languages    :	All
 //----------::::::::::----------::::::::::----------::::::::::----------//
 
+// Training Resource : Factorial of a large number
+//                     https://www.geeksforgeeks.org/factorial-large-number/
+//----------::::::::::----------::::::::::----------::::::::::----------//
+
 package main
 
 import (
