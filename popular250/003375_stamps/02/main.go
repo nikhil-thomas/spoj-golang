@@ -28,7 +28,7 @@ import (
 //----------::::::::::----------::::::::::----------::::::::::----------//
 
 // solution using selection sort
-// wrong answer needs more work
+// non zero exec needs more work
 //----------::::::::::----------::::::::::----------::::::::::----------//
 
 type test struct {
@@ -39,9 +39,9 @@ type test struct {
 
 func (t *test) compute() {
 	fCount := 0
-	for i := int64(0); i < t.fNum-i; i++ {
+	for i := int64(0); i < t.fNum; i++ {
 		maxIndex := i
-		for j := i + 1; j < t.fNum-i; j++ {
+		for j := i + 1; j < t.fNum; j++ {
 			if t.set[j] > t.set[maxIndex] {
 				maxIndex = j
 			}
@@ -49,8 +49,7 @@ func (t *test) compute() {
 		t.set[i], t.set[maxIndex] = t.set[maxIndex], t.set[i]
 		fCount++
 		t.total -= t.set[i]
-		fmt.Println(t.set[maxIndex], t.total)
-		if t.total < 0 {
+		if t.total <= 0 {
 			break
 		}
 	}
